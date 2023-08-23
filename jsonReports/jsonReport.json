@@ -1,0 +1,133 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\danie\\Desktop\\learn-playwright\\playwright.config.ts",
+    "rootDir": "C:/Users/danie/Desktop/learn-playwright",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "totalTime": 10630.159999966621
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonReports/jsonReport.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/danie/Desktop/learn-playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/danie/Desktop/learn-playwright",
+        "testIgnore": [],
+        "testMatch": [
+          "tests/windows.test.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.35.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tests\\windows.test.ts",
+      "file": "tests/windows.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "interact with multible tabs",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 8623,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Number of tabs: 3\n"
+                    },
+                    {
+                      "text": "https://www.lambdatest.com/selenium-playground/window-popup-modal-demo\n"
+                    },
+                    {
+                      "text": "https://www.facebook.com/lambdatest/\n"
+                    },
+                    {
+                      "text": "https://twitter.com/i/flow/login?redirect_after_login=%2Fintent%2Ffollow%3Fscreen_name%3DLambdatesting\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-08-18T19:31:47.616Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\danie\\Desktop\\learn-playwright\\test-results\\tests-windows-interact-with-multible-tabs\\test-finished-1.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\danie\\Desktop\\learn-playwright\\test-results\\tests-windows-interact-with-multible-tabs\\test-finished-2.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\danie\\Desktop\\learn-playwright\\test-results\\tests-windows-interact-with-multible-tabs\\test-finished-3.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98c21ebe87e39c315e15-f07ad1da909bd02d94e6",
+          "file": "tests/windows.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
